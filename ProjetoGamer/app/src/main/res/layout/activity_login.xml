@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10px"
+    tools:context="br.com.projetogamer.kassio.projetogamer.activities.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="ACESSAR"
+        android:textSize="100px" />
+
+    <EditText
+        android:layout_marginTop="50px"
+        android:id="@+id/login_id"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:hint="Login:" />
+
+    <EditText
+        android:id="@+id/senha_id"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:hint="Senha:" />
+
+    <Button
+        android:id="@+id/button_entrar_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:fontFamily="sans-serif"
+        android:text="ENTRAR" />
+
+    <TextView
+        android:id="@+id/nao_possui_cadastro_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Não possui cadastro?" />
+
+
+
+</LinearLayout>

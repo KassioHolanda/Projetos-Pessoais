@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25px"
+    tools:context="br.com.projetogamer.kassio.projetogamer.activities.AdicionarHistoriaActivity">
+
+    <TextView
+        android:text="Nova Historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/nome_jogo_id"
+        android:hint="Nome do Jogo:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/plataforma_jogo_id"
+        android:hint="Plataforma Jogada:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/categoria_jogo_id"
+        android:hint="Categoria:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/descricao_jogo_fase_atual_id"
+        android:hint="Descrição da Fase Atual:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
